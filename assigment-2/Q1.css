@@ -1,0 +1,37 @@
+
+        *{
+            background-color: lightgreen;
+            /* border:10px red dotted; */
+            margin-top: 100px;
+            padding-left: 150px;
+    
+
+        }
+        .abc{
+            background-color: aqua;
+            color: black;
+            font-weight: bold;
+            font-size: 20px;
+            border: black solid;
+            height: 100px;
+            width: 100px;
+            margin-left: 400px;
+            padding: 30px;
+            text-align: center;
+            padding-top: 50px;
+            margin-top:400px;
+        }
+        #abc{
+            background-color: yellow;
+            color: red;
+            font-size: 20px;
+            border: lightblue solid;
+            height: 100px;
+            width: 100px;
+            margin-left: 400px;
+            border-radius: 50px;
+            padding: 20px;
+            text-align: center;
+
+        }
+

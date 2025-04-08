@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>Registration Form</title>
+    </head>
+    <style>
+        body{
+            background-color: rgb(101, 76, 76);
+        }
+        .abc{
+            background-color: rgb(79, 109, 139);
+            color: rgb(0, 0, 0);
+            padding: 10px;
+            width: 600px;
+            margin-left: 600px;
+            margin-top: 300px;
+            border: 8px black dashed;
+            border-radius: 50px;
+            
+
+        }
+        button{
+            background-color: white;
+            color:black;
+            padding: 10px;
+            width: 90px;
+            cursor:pointer;
+
+
+        }
+        button:hover{
+            background-color: black;
+            color: white;
+            font-weight: bold;
+            transition:1s;
+
+        }
+    </style>
+    <body>
+        <div class="abc">
+            <form>
+        <h1> Student Registration Form</h1>
+        <hr style="border-color: lightgreen ;border:2px dashed;">
+        Enter Your First Name:
+        <input type="text" style="border-radius: 20px ;"><br><br>
+        Enter Your Second Name:
+        <input type="text" style="border-radius: 20px"><br><br>
+        Gender:
+        <input type="radio" id="male" name="gender" value="male"style="border-radius: 20px">male
+        <input type="radio" id="female" name="gender" value="female">female <br> <br>
+
+        Date:
+        <input type="date"><BR><BR>
+        EMAIL:
+        <input type="email"><br><br>
+        city:
+        <select id="city" name="city">
+            <option value="surat">surat</option>
+            <option value="ahmedabad">ahmedabad</option>
+            <option value="bharuch">bharuch</option>
+            <option value="bhavanagar">bhavnagar</option>
+            <option value="vapi">vapi</option> 
+
+        </select><br><br>
+
+        Select hobbies:
+        <input type="checkbox" id="singing" name="hobby" value="singing">singing
+        <input type="checkbox" id="reading" name="hobby" value="reading">reading
+        <input type="checkbox" id="writing" name="hobby" value="writing">writing
+        <input type="checkbox" id="dancing" name="hobby" value="dancing">dancing <br><br>
+            
+        <button type="submit">submit</button>
+        <button type="clear">clear</button>
+    </form>
+    </div>
+    </body>
+</html>
